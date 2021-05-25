@@ -24,7 +24,7 @@ h1
 .theTitle
 {
 	margin-top: 100px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', sans-serif;
 	font-size: 150px;
 	color:white;
 	animation: titleAnimation 3s ease;
