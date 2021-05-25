@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picrypt It !</title>
+	<link rel="shotcut icon" type="image/png" href="{{ url_for('static', filename='myFabicon.png') }}" />
+	<link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename='image-selected.css') }}" />
+</head>
+<body>
+    <div style="display: flex;">
+        <form action="/passcode-before-encryption" method="POST"  enctype="multipart/form-data">
+			<div class="input-button">
+				<input class="the-button" type='submit' value='Encrypt' id='btn1'/>
+			</div>
+		</form>
+        <form action="/passcode-before-decryption" method="POST"  enctype="multipart/form-data">
+			<div class="input-button">
+				<input class="the-button" type='submit' value='Decrypt' id='btn2'/>
+			</div>
+		</form>
+		<form action="/clear-image" method="POST"  enctype="multipart/form-data">
+			<div class="input-button">
+				<input class="the-button" type='submit' value='Clear' id='btn3'/>
+			</div>
+		</form>
+    </div>
+</body>
+</html>
