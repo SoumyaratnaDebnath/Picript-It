@@ -1,8 +1,7 @@
 Description --
 ----------------------------------------------------
 
-Picrypt-It! is a Desktop Application (runnable in Windows).
-Picrypt-It! can be used to encrypt any digital image with password-protected texts.
+Picrypt-It is a Desktop Application (runnable in Windows) which can be used to encrypt any digital image with password-protected texts.
 
 
 Instructions --
