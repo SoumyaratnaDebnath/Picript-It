@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@font-face{
+    src : url(fonts/PoiretOne-Regular.ttf);
+    font-family: Poiret One;
+}
 
 :root 
 {
-    --color1: rgb(255, 255, 255, 0.8);
+    --color1: rgb(255, 255, 255, 0.5);
 }
 body
 {
@@ -38,8 +42,8 @@ body
     width: 100%;
 
 
-    font-family: 'Lato', sans-serif;
-    font-size: 45px;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 60px;
     text-transform: uppercase;
 
     /*letter-spacing: 0.05em;*/
@@ -51,11 +55,12 @@ body
 {
     color: rgba(255, 255, 255, 1);
 }
+
 .input-button
 {
     border-style: none;
     width: 350px;
-    height: 175px;
+    height: 150px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -63,10 +68,10 @@ body
     background-color: transparent;
     /*border: var(--color1) solid 0px;
     box-shadow: 0 0 2px var(--color1);*/
-    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.822);
+    box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.3);
     transition: 0.75s;
 }
 .input-button:hover{
     /*box-shadow: 0 0 50px var(--color1), 0 0 100px var(--color1);*/
-    box-shadow: 0px 50px 0 var(--color1), -0px -50px 0 var(--color1);
+    box-shadow: 0px 4px 0px var(--color1), -0px -4px 0px var(--color1);
 }

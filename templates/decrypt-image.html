@@ -4,6 +4,10 @@
 	<title>Picrypt It !</title>
     <link rel="shotcut icon" type="image/png" href="{{ url_for('static', filename='myFabicon.png') }}" />
     <style>
+        @font-face{
+            src : url(fonts/PoiretOne-Regular.ttf);
+            font-family: Poiret One;
+        }
         body
         {
             height: 100vh;
@@ -31,13 +35,14 @@
             border: none;
             margin-bottom: 25px;
             margin-top: 80px;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin-left: 150px;
+            margin-right: 150px;
             padding: 20px;
             
             color: rgba(255, 255, 255, 1);
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 16px;
+            font-family:'Poiret One', sans-serif;
+            font-size: 20px;
+            opacity: 1;
 
             box-shadow: 0 -0px 0 white, 0 0px 0 white;
             border: white solid 2px;
@@ -104,7 +109,7 @@
     <!--<div class="head_style">
         Image Decrypted Successfully
     </div>-->
-    <pre class="txt"><div style="font-size: 20px"><b>DECRYPTED MESSEGE</b></div><br>{{_content_}}</pre>
+    <pre class="txt"><div style="font-size: 20px; opacity: 1; text-align: center;"><b>DECRYPTED MESSAGE</b></div><br>{{_content_}}</pre>
 
     <form action="/" method="POST"  enctype="multipart/form-data">
         <div align="center"><input class="btn_style" type='submit' value='Main Menu' id='btn1'/></div>
