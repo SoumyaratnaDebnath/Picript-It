@@ -1,7 +1,7 @@
 Description --
 ----------------------------------------------------
 
-Picrypt-It is a Desktop Application (runnable in Windows) which can be used to inscribe any digital image with password-protected texts.
+Picrypt-It is a Desktop Application (runnable in Windows) which can be used to inscribe any digital image with password protected texts.
 
 
 Instructions --
